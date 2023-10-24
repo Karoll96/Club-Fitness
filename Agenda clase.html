@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Clase</title>
+</head>
+<body>
+   <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+
+              }
+    .back-arrow {
+            position: fixed;
+            top: 20px; 
+            left: 20px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+    body {
+        margin: 10px;
+
+    }
+    label {
+        font-weight: bold;
+    }
+    button:hover {
+        background-color: #6085ac;
+    }
+    .contenedor {
+          width: 300px;
+          height: 150px;
+          background-color: #e0e0e0;
+          border: 8px solid rgb(122, 122, 139);
+          padding: 100px;
+          
+        }
+        .contenedor {
+            margin:  auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+   </style>
+</head>
+<body>
+
+    <h1>Programar Clase</h1>
+    <div class="contenedor">
+    <label for="fecha"> Selecciona la Fecha</label>
+    <input type="date" id="fecha"><br>
+
+    <label for="hora">Selecciona la Hora</label>
+    <input type="time" id="hora"><br>
+
+    <button onclick="AgendarClase ()"></button>
+   
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+    <a href="Agendar clase">Agendar clase</a></div> 
+
+</body>
+</html>
